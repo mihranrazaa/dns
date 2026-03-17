@@ -775,6 +775,11 @@ swc: # akreamer@protonmail.com
   - ttl: 600
     type: CNAME
     value: swcccwebsite.github.io.
+    
+typeline: # mihranrazaa@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 tejas: # by tej
   ttl: 600
@@ -942,7 +947,4 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
-typeline: # mihranrazaa@gmail.com
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+
