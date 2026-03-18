@@ -775,11 +775,6 @@ swc: # akreamer@protonmail.com
   - ttl: 600
     type: CNAME
     value: swcccwebsite.github.io.
-    
-typeline: # mihranrazaa@gmail.com
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
 
 tejas: # by tej
   ttl: 600
@@ -790,6 +785,11 @@ toonnongaeoy:
  - ttl: 600
    type: CNAME
    value: storyhouseproduction.duckdns.org.
+
+typeline: # mihranrazaa@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
