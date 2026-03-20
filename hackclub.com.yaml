@@ -128,6 +128,10 @@ a.selfhosted:
   ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
+ticketing.infra:
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 coolify.limited.selfhosted:
   ttl: 300
   type: CNAME
@@ -1576,10 +1580,6 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubs: # jared@hackclub.com @jps @hya
-- ttl: 300
-  type: CNAME
-  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
@@ -3260,6 +3260,10 @@ jackpot: # emmaborghi@hackclub.com U078DFX40A2
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 jam:
 - ttl: 300
   type: CNAME
@@ -4192,6 +4196,10 @@ panorama:
   ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
+paradox: #dhamari@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
@@ -4463,7 +4471,7 @@ puyallup:
 - ttl: 600
   type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
-pxl: # olive@hackclub.com #U07BN55GN3D
+pxl: # euan@hackclub.com #U06T30DNB3L
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -4888,6 +4896,10 @@ sign:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+sign.events:
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 signature:
   ttl: 300
   type: CNAME
